@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03c7787d-cf3b-4e35-ab59-2843fdd3e65f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605336229640</updated>
       <workItem from="1605336230795" duration="2079000" />
-      <workItem from="1605372721321" duration="581000" />
+      <workItem from="1605372721321" duration="636000" />
+      <workItem from="1605374451515" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="added post controller">
       <created>1605343386682</created>
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605373251404</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished basic login page for the microblog">
+      <created>1605373377304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605373377304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +138,8 @@
     <MESSAGE value="adding views" />
     <MESSAGE value="added frontend" />
     <MESSAGE value="fixed the nanoid stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the nanoid stuff" />
+    <MESSAGE value="finished basic login page for the microblog" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished basic login page for the microblog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605342685743">
