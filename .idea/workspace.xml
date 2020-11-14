@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03c7787d-cf3b-4e35-ab59-2843fdd3e65f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/controllers/jwt_microservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/jwt_microservice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <updated>1605336229640</updated>
       <workItem from="1605336230795" duration="2079000" />
       <workItem from="1605372721321" duration="636000" />
-      <workItem from="1605374451515" duration="1412000" />
+      <workItem from="1605374451515" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="added post controller">
       <created>1605343386682</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605375852261</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added imports">
+      <created>1605375874753</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605375874753</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +216,8 @@
     <MESSAGE value="added jwt verification" />
     <MESSAGE value="added template signing" />
     <MESSAGE value="added actual signing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added actual signing" />
+    <MESSAGE value="added imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="added imports" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605342685743">
