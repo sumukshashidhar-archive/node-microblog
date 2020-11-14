@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-import { nanoid } from 'nanoid'
+const nanoid = require('nanoid')
 
 const userSchema = new mongoose.Schema({
-    user_id: {type: String, default: nanoid()},
+    user_id: {type: String, default: nanoid.nanoid()},
     username: String,
     password: String,
 });
