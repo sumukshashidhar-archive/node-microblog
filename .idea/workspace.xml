@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="03c7787d-cf3b-4e35-ab59-2843fdd3e65f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <updated>1605336229640</updated>
       <workItem from="1605336230795" duration="2079000" />
       <workItem from="1605372721321" duration="636000" />
-      <workItem from="1605374451515" duration="994000" />
+      <workItem from="1605374451515" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="added post controller">
       <created>1605343386682</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605375338667</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="some routing simplification">
+      <created>1605375459695</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605375459695</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +178,8 @@
     <MESSAGE value="added auth" />
     <MESSAGE value="some more coding" />
     <MESSAGE value="added bcrypt and auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bcrypt and auth" />
+    <MESSAGE value="some routing simplification" />
+    <option name="LAST_COMMIT_MESSAGE" value="some routing simplification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605342685743">
