@@ -1,7 +1,7 @@
 const user = require("./../models/user")
 const logger = require("./../config/logger")
 const bcrypt = require("bcrypt")
-
+const jwms = require("./jwt_microservice")
 async function checkPassword(password, attempt) {
     return new Promise(async function(resolve, reject) {
         bcrypt.compare(attempt, password, function (err, BCRYPT_RES) {
@@ -34,7 +34,8 @@ module.exports = {
                     if(obj!==undefined && obj) {
                         const resp = await checkPassword(obj["password"],password)
                         if(resp) {
-                            resolve(obj)
+                            let token = await jwms.signing(obj["user_id"])
+                            resolve(token)
                         }
                     }
                     else {
