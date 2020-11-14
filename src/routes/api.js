@@ -4,4 +4,8 @@ module.exports = function (app) {
     app.get('/api/getAllPosts', async function(req, res) {
         pms.getAllPosts()
     })
+
+    app.get('/api/getRecentPosts', async function (req, res) {
+        pms.getRecentPosts()
+    })
 }
