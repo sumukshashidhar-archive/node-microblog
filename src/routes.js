@@ -4,4 +4,6 @@ module.exports = function(app) {
     require("./routes/dashboard")(app); // dashboard routes
     require("./routes/data-vault")(app); // vault
     require("./routes/api")(app);
+    require("./routes/frontend")(app);
+
 }

@@ -16,7 +16,9 @@ const path = require('path')
 require("dotenv").config();
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(cors()  );
+app.use(cors());
+app.use(express.static("styles"));
+app.set('view engine', 'ejs');
 
 var accessLogStream = rfs.createStream('access.log', {
     interval: '1d', // rotate daily

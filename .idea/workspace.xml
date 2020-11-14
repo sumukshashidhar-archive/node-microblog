@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="03c7787d-cf3b-4e35-ab59-2843fdd3e65f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/frontend.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605336229640</updated>
-      <workItem from="1605336230795" duration="2067000" />
+      <workItem from="1605336230795" duration="2079000" />
+      <workItem from="1605372721321" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="added post controller">
       <created>1605343386682</created>
@@ -83,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605343729211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding views">
+      <created>1605372954927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605372954927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,12 +109,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added post controller" />
     <MESSAGE value="formatting" />
     <MESSAGE value="added the get all posts function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the get all posts function" />
+    <MESSAGE value="adding views" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding views" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605342685743">
