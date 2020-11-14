@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03c7787d-cf3b-4e35-ab59-2843fdd3e65f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/jwt_microservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/jwt_microservice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <updated>1605336229640</updated>
       <workItem from="1605336230795" duration="2079000" />
       <workItem from="1605372721321" duration="636000" />
-      <workItem from="1605374451515" duration="1234000" />
+      <workItem from="1605374451515" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="added post controller">
       <created>1605343386682</created>
@@ -149,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605375459695</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding json verification and signing">
+      <created>1605375704371</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605375704371</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added jwt verification">
+      <created>1605375720340</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605375720340</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +191,9 @@
     <MESSAGE value="some more coding" />
     <MESSAGE value="added bcrypt and auth" />
     <MESSAGE value="some routing simplification" />
-    <option name="LAST_COMMIT_MESSAGE" value="some routing simplification" />
+    <MESSAGE value="adding json verification and signing" />
+    <MESSAGE value="added jwt verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="added jwt verification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605342685743">
