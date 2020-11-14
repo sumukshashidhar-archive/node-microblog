@@ -2,9 +2,16 @@ const user = require("./../models/user")
 const logger = require("./../config/logger")
 const bcrypt = require("bcrypt")
 
-async function checkPassword(password) {
+async function checkPassword(password, attempt) {
     return new Promise(async function(resolve, reject) {
-
+        bcrypt.compare(attempt, password, function (err, BCRYPT_RES) {
+            if(err){
+                logger.error(err)
+            }
+            else {
+                resolve(BCRYPT_RES)
+            }
+        })
     })
 }
 
@@ -25,7 +32,7 @@ module.exports = {
                 }
                 else {
                     if(obj!==undefined && obj) {
-                        const resp = await checkPassword(password)
+                        const resp = await checkPassword(obj["password"],password)
                         if(resp) {
                             resolve(obj)
                         }
